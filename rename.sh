@@ -1,4 +1,4 @@
-array=( 1_Hello 2_Coin )
+array=( 1_Hello 2_Coin 3_TodoApp )
 for i in "${array[@]}"
 do
     mv "${i}"/truffle-config.js "${i}"/truffle.js
