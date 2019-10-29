@@ -1,12 +1,12 @@
 # EthHW
-Ethereum teaching materials HW2-2 for NTUEE Networking and Multimedia Lab (EE3002)
+Ethereum teaching materials HW2 for NTUEE Networking and Multimedia Lab (EE3002)
 ## Prequisites
 node.js, npm, ganache-cli(or ganache), truffle, Metamask(browser add-ons)
 ```
-sudo apt install nodejs
-sudo apt install npm
-npm install -g ganache-cli
-npm install -g truffle
+~ $ sudo apt install nodejs
+~ $ sudo apt install npm
+~ $ npm install -g ganache-cli
+~ $ npm install -g truffle
 ```
 ## Quick start
 ```
@@ -27,6 +27,7 @@ npm install -g truffle
 3. Step-by-step
 ## HWs
 **Please describe how you get the point(s) in your report.**
+
 ### 1_Hello
 ```
 ~ $ cd 1_Hello/
@@ -58,7 +59,7 @@ npm install -g truffle
     * allowance(owner, spender) - **TODO**
     * approve(spender, amount) - **TODO**
     * transferFrom(sender, recipient, amount) - **TODO**
-- You should test their functionalities comprehensively and get "passing" by running `truffle test`
+- You should test these functionalities comprehensively and get "passing" by running `truffle test`
 ### 3_TodoApp
 ```
 ~ $ cd 3_TodoApp/
@@ -66,7 +67,7 @@ npm install -g truffle
 - Compile and migrate the contracts (remember to check `truffle-config.js` or `truffle.js`)
 - `cd react` and run `npm install`, then run `npm run start`
 - Open your browser and enter `localhost:3000` in the URL bar
-- (4%) Realize web3 functions below:
+- (4%) Realize web3 functions below (`react/src/index.js` line 55~85):
     * addTodo
     * deleteTodo
     * completeTodo
