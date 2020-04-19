@@ -51,7 +51,7 @@ node.js, npm, ganache-cli(or ganache), truffle, Metamask(browser add-ons)
 - Compile the contracts
 - Modify `truffle-config.js`(or `truffle.js`)
 - Migrate the contracts
-- Write your test script(solidity)
+- Write your test script(solidity or javascript)
 - (4%) Test the functions below:
     * totalSupply() - I've done for you
     * balanceOf(account) - I've done for you
