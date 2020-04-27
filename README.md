@@ -44,7 +44,7 @@ node.js, npm, ganache-cli(or ganache), truffle, Metamask(browser add-ons)
 ### 2_Coin
 ```
 ~ $ cd 2_Coin/
-~ $ npm install @openzeppelin/contracts
+~ $ npm install @openzeppelin/contracts@^2.4.0
 ```
 - Google "ERC20" first
 - And you might need this doc: https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#erc20
