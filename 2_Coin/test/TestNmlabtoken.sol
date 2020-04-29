@@ -22,7 +22,14 @@ contract TestNmlabtoken {
     Assert.equal(nml.totalSupply(), expected, "Total supply should be 10000 NML initially");
   }
   function testTransfer() public {
-    // TODO
+    Nmlabtoken nml = Nmlabtoken(DeployedAddresses.Nmlabtoken());
+
+    address account1 = 0x21394233503cF69e6ea73386C17aD63E94a34329;
+
+    uint expected = 80;
+
+    nml.transfer(account1, expected);
+    Assert.equal(nml.balanceOf(account1), expected, "Account1 should have 8000 NML");
   }
   function testAllowance() public {
     // TODO

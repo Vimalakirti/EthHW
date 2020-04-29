@@ -15,7 +15,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import getWeb3 from "./utils/getWeb3";
 
-import TodoAppContract from "../../build/contracts/TodoApp.json"
+import TodoAppContract from "./build/contracts/TodoApp.json"
 
 import TodoHeader from './pages/TodoHeader';
 import TodoForm from './pages/TodoForm';

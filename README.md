@@ -65,6 +65,7 @@ node.js, npm, ganache-cli(or ganache), truffle, Metamask(browser add-ons)
 ~ $ cd 3_TodoApp/
 ```
 - Compile and migrate the contracts (remember to check `truffle-config.js` or `truffle.js`)
+- `mv build react/src/`
 - `cd react` and run `npm install`, then run `npm run start`
 - Open your browser and enter `localhost:3000` in the URL bar
 - (4%) Realize web3 functions below (`react/src/index.js` line 55~85):
